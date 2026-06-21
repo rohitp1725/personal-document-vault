@@ -1,0 +1,23 @@
+# Compiled class files
+out/
+*.class
+
+# Runtime data created by the app (users, vaults, logs, backups)
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+bin/
+
+# Logs
+*.log
