@@ -1,4 +1,4 @@
-package vault;
+
 
 import interfaces.Searchable;
 import interfaces.Shareable;
