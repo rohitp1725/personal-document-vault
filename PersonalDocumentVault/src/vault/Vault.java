@@ -22,7 +22,7 @@ public class Vault implements Searchable, Shareable {
         this.reminders = FileHandler.loadReminders(owner);
     }
 
-    // ─── Document CRUD ──────────────────────────────────────
+  
     public void addDocument(Document doc) {
         documents.add(doc);
         save();
