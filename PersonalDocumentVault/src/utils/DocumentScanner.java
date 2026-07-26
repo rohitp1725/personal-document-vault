@@ -4,7 +4,7 @@ import java.util.*;
 
 public class DocumentScanner {
 
-    // Pre-filled templates simulating document scan auto-fill
+  
     private static final Map<String, String[]> TEMPLATES = new LinkedHashMap<>();
 
     static {
