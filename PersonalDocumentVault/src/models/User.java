@@ -7,7 +7,7 @@ public abstract class User {
     protected String fullName;
     protected String bloodGroup;
     protected String emergencyContact;
-    protected String role; // ADULT, MINOR, SENIOR
+    protected String role;
     protected int loginAttempts;
     protected boolean isLocked;
     protected String securityQuestion;
