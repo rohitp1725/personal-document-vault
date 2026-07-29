@@ -43,7 +43,7 @@ public abstract class User {
                 + (isLocked ? "1" : "0") + "|" + securityQuestion + "|" + securityAnswer;
     }
 
-    // Getters
+    
     public String getUsername() { return username; }
     public String getPasswordHash() { return passwordHash; }
     public String getFullName() { return fullName; }
