@@ -16,7 +16,7 @@ public class FileHandler {
         new File(DATA_DIR + "reminders/").mkdirs();
     }
 
-    // ─── Users ───────────────────────────────────────────────
+
     public static void saveUser(User user) {
         String path = DATA_DIR + "users.txt";
         List<String> lines = readLines(path);
