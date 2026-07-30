@@ -59,7 +59,7 @@ public class FileHandler {
         return false;
     }
 
-    // ─── Documents ───────────────────────────────────────────
+
     public static void saveDocuments(String username, List<Document> docs) {
         List<String> lines = new ArrayList<>();
         for (Document d : docs) lines.add(d.toFileString());
