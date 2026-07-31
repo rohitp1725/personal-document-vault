@@ -95,7 +95,7 @@ public class FileHandler {
         } catch (Exception e) { return null; }
     }
 
-    // ─── Version History ────────────────────────────────────
+
     public static void saveVersionSnapshot(String username, VersionedDocument vd) {
         String path = DATA_DIR + "history/history_" + username + ".txt";
         List<String> lines = readLines(path);
@@ -112,7 +112,7 @@ public class FileHandler {
         return list;
     }
 
-    // ─── Reminders ───────────────────────────────────────────
+    // ─── Remi ───────────────────────────────────────────
     public static void saveReminders(String username, List<Reminder> reminders) {
         List<String> lines = new ArrayList<>();
         for (Reminder r : reminders) lines.add(r.toFileString());
