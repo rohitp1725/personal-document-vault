@@ -33,7 +33,7 @@ public class SuggestionEngine {
             }
         }
 
-        // Check for expiring documents
+        /
         for (Document d : documents) {
             if (d.isExpired()) {
                 suggestions.add("EXPIRED: '" + d.getName() + "' expired! Please renew it.");
