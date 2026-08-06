@@ -44,7 +44,7 @@ public class SuggestionEngine {
             }
         }
 
-        // Category balance suggestions
+    
         Map<String, Integer> catCount = new HashMap<>();
         for (Document d : documents) {
             catCount.merge(d.getCategory(), 1, Integer::sum);
