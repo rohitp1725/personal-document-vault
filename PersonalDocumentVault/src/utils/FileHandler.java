@@ -112,7 +112,6 @@ public class FileHandler {
         return list;
     }
 
-    // ─── Reminders ───────────────────────────────────────────
     public static void saveReminders(String username, List<Reminder> reminders) {
         List<String> lines = new ArrayList<>();
         for (Reminder r : reminders) lines.add(r.toFileString());
