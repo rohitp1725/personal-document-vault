@@ -47,8 +47,7 @@ public class EncryptionUtil {
         return sb.toString();
     }
 
-    public static String hashPassword(String password) {
-        // Simple hash for demo purposes
+    
         int hash = 0;
         for (char c : password.toCharArray()) {
             hash = 31 * hash + c;
