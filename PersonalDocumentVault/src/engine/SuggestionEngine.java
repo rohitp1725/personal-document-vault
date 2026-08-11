@@ -63,7 +63,8 @@ public class SuggestionEngine {
 
         int count = 0;
         for (String s : suggestions) {
-            if (count >= 6) break; // Sho
+            if (count >= 6) break; 
+            
             if (s.startsWith("EXPIRED")) {
                 System.out.println(UIUtil.RED + "  [!] " + s + UIUtil.RESET);
             } else if (s.startsWith("EXPIRING")) {
