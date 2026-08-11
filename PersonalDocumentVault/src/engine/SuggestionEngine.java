@@ -21,7 +21,8 @@ public class SuggestionEngine {
 
         List<String> suggestions = new ArrayList<>();
 
-        // Check for missing important documents
+        // Check for missing important 
+        
         Set<String> existingNames = new HashSet<>();
         for (Document d : documents) existingNames.add(d.getName().toLowerCase());
 
