@@ -54,7 +54,7 @@ public class FamilyNetwork {
             UIUtil.printError("User not found.");
             return;
         }
-        // Access allowed if current user is adult/senior and target is minor
+        // Access allowed if current user is adu
         // OR both are adults in same family
         AuditLogger.getInstance().logAction(currentUser, "VIEW_FAMILY_VAULT",
                 "Accessed vault of " + targetUsername);
