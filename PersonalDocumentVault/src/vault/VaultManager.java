@@ -17,7 +17,7 @@ public class VaultManager {
         this.sc = sc;
     }
 
-    // ─── Login ─────────────────
+    // ─── Login 
     public boolean login() throws VaultLockedException, AuthenticationFailedException {
         UIUtil.printSectionTitle("Login to Your Vault");
         UIUtil.printPrompt("Username");
