@@ -127,7 +127,7 @@ public class FileHandler {
         return list;
     }
 
-    // ─── Audit Log ───────────────────────────────────────────
+    // ─── Audit Log ──────────────────────────────────────
     public static void appendAuditLog(String entry) {
         String path = DATA_DIR + "audit_log.txt";
         try (PrintWriter pw = new PrintWriter(new FileWriter(path, true))) {
