@@ -34,7 +34,7 @@ public abstract class Document {
         this.isEncrypted = false;
     }
 
-    // Reconstruct from file
+    // Reconstruct from 
     public Document(String docId, String name, String documentNumber, String category,
                     LocalDate issueDate, LocalDate expiryDate, LocalDate addedDate,
                     String issuingAuthority, String notes, int version) {
