@@ -34,7 +34,8 @@ public abstract class Document {
         this.isEncrypted = false;
     }
 
-    // Reconstruct 
+    // Reconst
+    
     
     public Document(String docId, String name, String documentNumber, String category,
                     LocalDate issueDate, LocalDate expiryDate, LocalDate addedDate,
