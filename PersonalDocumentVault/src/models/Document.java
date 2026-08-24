@@ -34,7 +34,7 @@ public abstract class Document {
         this.isEncrypted = false;
     }
 
-    // Reconst
+   
     
     
     public Document(String docId, String name, String documentNumber, String category,
