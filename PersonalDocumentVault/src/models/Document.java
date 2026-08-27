@@ -91,7 +91,7 @@ public abstract class Document {
     public String getNotes() { return notes; }
     public int getVersion() { return version; }
 
-    // Setters
+    // Sett
     public void setName(String name) { this.name = name; }
     public void setDocumentNumber(String documentNumber) { this.documentNumber = documentNumber; }
     public void setExpiryDate(LocalDate expiryDate) { this.expiryDate = expiryDate; }
